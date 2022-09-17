@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    
+}
+
+h1{
+    font-family: 'Lobster';font-size: 100px;
+}
+
+h2{
+    font-family: 'Open Sans';font-size: 32px;
+    color:#4b5553
+}
+
+h3{
+    font-family: 'Raleway';font-size: 22px;
+    color: #658377
+}
+
+a.touch {
+  background-color: #bfdbd6;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+
+}
+
+
+a:link {
+    color: green;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color:rgb(132, 24, 72);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(137, 151, 194);
+    
+}
+
+.new1 {
+    border-top: 2px dotted green;
+    
+}
+
+.new2 {
+    border-top: 2px solid green;
+}
+
+.top{
+    background-color:#bfdbd6;
+    text-align: center;
+    padding:220px;
+    font-family: 'Raleway'
+}
+
+.leave{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    padding: 0%;
+    margin:0%;
+    
+}
+
+.leave2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    padding: 0%;
+    margin:0%;
+}
+
+.middle{
+    text-align: center;
+    padding:125px;
+    font-family: 'Raleway'
+    
+}
+
+.head{
+    border-radius: 80%;
+}
+
+
+.lang{
+    
+    column-count: 2;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lang.c1{
+    float:left;
+   
+}
+
+.lang.c2{
+    float:right;
+    text-align: justify;
+}
+
+
+.ul{
+    list-style-type: none;
+}
+
+.leader{
+    column-count: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.leader.l1{
+    float:left;
+    text-align: justify;
+}
+
+.leader.l2{
+    text-align: center;
+    float:none;
+
+}
+
+.leader.l3{
+    float:right;
+}
+
+.skill{
+    column-count: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.skill.s1{
+    float:left;
+    text-align: justify;
+}
+
+.skill.s2{
+    text-align: center;
+    float:none;
+
+}
+
+.skill.s3{
+    float:right;
+}
+
+
+.bottom{
+    background-color: rgb(191, 230, 217);
+    text-align: center;
+    padding:40px;
+    font-family: 'Raleway'
+    
+}
+
+
+.form{
+    column-count: 2;
+    display: flex;
+    justify-content: center;
+    text-align-last: justify;
+
+}
+
+.form.text{
+    float:left;
+   
+}
+
+.form.box{
+    float:right;
+    
+}
